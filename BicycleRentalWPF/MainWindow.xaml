@@ -1,0 +1,16 @@
+﻿<Window x:Name="MainWindow1" x:Class="BicycleRentalWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="352" Width="484" FontFamily="Traditional Arabic" Background="{x:Null}" >
+    <Grid Background="#FFF1F112" OpacityMask="Black">
+        <TextBox x:Name="RentalSystemTextBox" HorizontalAlignment="Left" Height="30" Margin="100,10,0,0" TextWrapping="Wrap" Text="Brockport Bicycle Rental System" VerticalAlignment="Top" Width="290" TextAlignment="Center" Background="#FFF1F112" BorderBrush="{x:Null}" FontFamily="Traditional Arabic" FontSize="20" Foreground="#FF068300"/>
+        <Button x:Name="SubmitButton" Content="SUBMIT" Margin="80,230,285,41" Background="#FF068300" FontFamily="Traditional Arabic" FontSize="20" Foreground="#FFF1F112" BorderThickness="2" BorderBrush="#FF080303" Click="SubmitButton_Click"/>
+        <Button x:Name="ExitButton" Content="EXIT" Margin="285,230,80,41" Background="#FF068300" FontSize="20" FontFamily="Traditional Arabic" Foreground="#FFF1F112" BorderThickness="2" BorderBrush="#FF080303" Click="ExitButton_Click"/>
+        <TextBox x:Name="LoginTextBox" HorizontalAlignment="Left" Height="20" Margin="150,55,0,0" TextWrapping="Wrap" Text="LOGIN SCREEN" VerticalAlignment="Top" Width="190" TextAlignment="Center" Background="#FFF1F112" BorderBrush="{x:Null}" FontFamily="Traditional Arabic" FontSize="16" Foreground="#FF068300"/>
+        <TextBox x:Name="BannerIDEnterBox" HorizontalAlignment="Left" Height="23" Margin="165,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="#FFF1F112" Foreground="#FF068300" BorderThickness="2"/>
+        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="165,175,0,0" VerticalAlignment="Top" Height="23" Width="120" Background="#FFF1F112" Foreground="#FF068300" BorderThickness="2" PasswordChar="*"/>
+        <Label x:Name="BannerIDLabel" Content="Banner ID:" HorizontalAlignment="Left" Margin="80,120,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.139,-0.179" Width="80" Background="#FFF1F112" Foreground="#FF068300" FontSize="16"/>
+        <Label x:Name="PasswordLabel" Content="Password:" HorizontalAlignment="Left" Margin="80,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.139,-0.179" Width="80" Background="#FFF1F112" Foreground="#FF068300" FontSize="16"/>
+
+    </Grid>
+</Window>
